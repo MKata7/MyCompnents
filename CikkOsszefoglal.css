@@ -1,0 +1,32 @@
+h1 {
+    color:          rgba(0,0,0,.8);   /* szín (red, green, blue, alpha) */
+    font-family:    serif;              /*betűtípus*/
+    font-size:      36px;               /*betűméret*/
+    line-height:    1.58;               /*sormagasság*/
+    letter-spacing: -.003em;            /*betű közök*/
+    text-align: center;                 /*szöveg igazítása*/
+  }
+  
+  img {
+    height: auto;                       /*képmagasság*/
+    width: 100%;                        /*képszélesség*/
+  }
+  
+  
+  
+  figure {
+    margin:         0;                  /*margó*/
+  }
+  
+  
+  article {
+    margin:         0 auto;               /*középre rendezés*/
+  }
+  
+  a {
+    color: grey;                        /*hivatkozás színe*/
+  }
+  
+  a:hover {
+    color: rgba(153, 153, 153, 1);      /*link szine, mikor az egér felette van*/
+  }

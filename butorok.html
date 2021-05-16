@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2021 by anonymous (http://jsbin.com/wewuvimeva/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <title>Pseudo-class, multiple and attribute selectors</title>
+<style id="jsbin-css">
+a:hover {
+  color: green;
+}
+
+h1, p {
+  color: blue;
+}
+
+[data-furniture="table"] {
+  color: red;
+}
+
+
+</style>
+</head>
+<body>
+  <h1>Our furnitures</h1>
+  <p>Here is an introduction of the company</p> 
+  <ul>
+    <li data-room="kitchen" data-furniture="table">Dining table</li>
+    <li data-room="living-room" data-furniture="table">Coffee table</li>
+    <li data-furniture="table">Office desk</li>
+    <li data-room="bathroom" data-furniture="bathroom-cabinet">Bathroom cabinet</li>
+  </ul>
+  <a href="#">Order here!</a>
+</body>
+</html>
